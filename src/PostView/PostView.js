@@ -8,7 +8,7 @@ import 'react-toastify/dist/ReactToastify.css';
 function PostView() {
   const [posts,setPosts]=useState('')
   useEffect(()=>{
-    fetch('https://instaclone-10x-sushant.herokuapp.com/post',{
+    fetch('https://image-share-zog6.onrender.com/post',{
     method:"GET",
     headers: {
       'Accept': 'application/json',

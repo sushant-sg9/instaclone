@@ -35,7 +35,7 @@ function Form() {
    
     const submitData=(e)=>{
         e.preventDefault()
-        fetch('https://instaclone-10x-sushant.herokuapp.com/post/add',{
+        fetch('https://image-share-zog6.onrender.com/post/add',{
                         method:"post",
                         headers:{
                             "Content-Type":"application/json",
